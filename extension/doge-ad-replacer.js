@@ -106,7 +106,7 @@
       if (el.offsetWidth == adWidth && el.offsetHeight == adHeight) {
         matchedAd = true;
         if (adImages) {
-          el.outerHTML = '<div style="width:'+adWidth+'px; height:'+adHeight+'px; background: url('+getRandomAd(adImages).link+'); no-repeat fixed; -webkit-background-size: cover; border: 1px solid #ddd"></div>';
+          el.outerHTML = '<div style="width:'+adWidth+'px; height:'+adHeight+'px; background: url(http://www.enchanting-costarica.com/wp-content/uploads/2015/09/Sloth-baby-being-weighed-in-plastic-basket-Costa-Rica-Credit-Sam-Trull-2014.jpg); no-repeat fixed; -webkit-background-size: cover; border: 1px solid #ddd"></div>';
         }
       }
     });
